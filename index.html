@@ -477,7 +477,7 @@
                 placeholder="E-mail"
               />
               <button type="submit" class="subscribe-btn btn">
-                Subscribe<svg class="subscribe-icon" width="24" heigh="20">
+                Subscribe<svg class="subscribe-icon" width="24" height="20">
                   <use href="./images/symbol-defs.svg#icon-send"></use>
                 </svg>
               </button>
@@ -496,68 +496,58 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form action="#" class="modal-form form">
-          <div class="form-group">
-            <label class="form-label"
-              ><span>Name</span>
-              <div class="form-content">
-                <input type="text" class="form-input" name="name" required />
-                <svg class="form-icon" width="19" heigh="24">
-                  <use href="./images/symbol-defs.svg#icon-person"></use>
-                </svg>
-              </div>
-            </label>
-          </div>
-          <div class="form-group">
-            <label class="form-label"
-              ><span>Phone</span>
-              <div class="form-content">
-                <input type="tel" class="form-input" name="phone" required />
-                <svg class="form-icon" width="19" heigh="24">
-                  <use href="./images/symbol-defs.svg#icon-phone"></use>
-                </svg>
-              </div>
-            </label>
-          </div>
-          <div class="form-group">
-            <label class="form-label"
-              ><span>Email</span>
-              <div class="form-content">
-                <input type="email" class="form-input" name="email" required />
-                <svg class="form-icon" width="19" heigh="24">
-                  <use href="./images/symbol-defs.svg#icon-email"></use>
-                </svg>
-              </div>
-            </label>
-          </div>
-          <div class="form-group">
-            <label class="form-label"
-              ><span>Comments</span>
-              <div class="form-content">
-                <textarea
-                  name="comments"
-                  placeholder="Text input"
-                  class="form-textarea"
-                ></textarea>
-              </div>
-            </label>
-          </div>
-          <div class="form-group">
-            <input
-              type="checkbox"
-              class="form-checkbox visually-hidden"
-              id="policy"
-              name="policy"
-            />
-            <label for="policy" class="form-label-checkbox">
-              <span>
-                <svg class="checkbox-icon" width="10" heigh="8">
-                  <use href="./images/symbol-defs.svg#icon-check"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
-              <a class="policy-link" href="#">Privacy Policy</a></label
-            >
-          </div>
+          <label class="form-label"
+            ><span>Name</span>
+
+            <input type="text" class="form-input" name="name" required />
+            <svg class="form-icon" width="19" height="24">
+              <use href="./images/symbol-defs.svg#icon-person"></use>
+            </svg>
+          </label>
+
+          <label class="form-label"
+            ><span>Phone</span>
+
+            <input type="tel" class="form-input" name="phone" required />
+            <svg class="form-icon" width="19" heigh="24">
+              <use href="./images/symbol-defs.svg#icon-phone"></use>
+            </svg>
+          </label>
+
+          <label class="form-label"
+            ><span>Email</span>
+
+            <input type="email" class="form-input" name="email" required />
+            <svg class="form-icon" width="19" heigh="24">
+              <use href="./images/symbol-defs.svg#icon-email"></use>
+            </svg>
+          </label>
+
+          <label class="form-label"
+            ><span>Comments</span>
+            <div class="form-content">
+              <textarea
+                name="comments"
+                placeholder="Text input"
+                class="form-textarea"
+              ></textarea>
+            </div>
+          </label>
+          <input
+            type="checkbox"
+            class="form-checkbox visually-hidden"
+            id="policy"
+            name="policy"
+          />
+          <label for="policy" class="form-label-checkbox">
+            <span>
+              <svg class="checkbox-icon" width="10" height="8">
+                <use href="./images/symbol-defs.svg#icon-check"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the
+            <a class="policy-link" href="#">Privacy Policy</a></label
+          >
           <button type="submit" class="form-btn btn">Send</button>
         </form>
       </div>
