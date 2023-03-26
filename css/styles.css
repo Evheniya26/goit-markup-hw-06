@@ -620,7 +620,7 @@ body {
 
 .modal {
   width: 408px;
-  height: 584рх;
+  height: 584px;
   padding: 72px 24px 24px;
 
   position: absolute;
@@ -644,14 +644,9 @@ body {
   align-items: center;
   width: 8px;
   height: 8px;
-
   fill: var(--black-color);
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.close-icon:hover,
-.close-icon:active {
-  fill: var(--white-color);
 }
 .close-button {
   position: absolute;
@@ -671,6 +666,9 @@ body {
 .close-button:hover,
 .close-button:active {
   background-color: var(--pressed-state-color);
+}
+.close-button:hover .close-icon {
+  fill: var(--white-color);
 }
 .modal-title {
   font-weight: 500;
